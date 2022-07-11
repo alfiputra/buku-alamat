@@ -19,12 +19,14 @@ import { MatInputModule } from "@angular/material/input";
 // Component
 import { TambahAlamatComponent } from './tambah-alamat/tambah-alamat.component';
 import { DetailAlamatComponent } from './detail-alamat/detail-alamat.component';
+import { DialogKonfirmasiComponent } from './dialog-konfirmasi/dialog-konfirmasi.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TambahAlamatComponent,
-    DetailAlamatComponent
+    DetailAlamatComponent,
+    DialogKonfirmasiComponent
   ],
   imports: [
     BrowserModule,

@@ -21,9 +21,9 @@
             <mat-icon>more_vert</mat-icon>
           </button>
           <mat-menu #menu="matMenu">
-            <button mat-menu-item>Detail</button>
+            <button mat-menu-item (click)="detailAlamat()">Detail</button>
             <button mat-menu-item>Edit</button>
-            <button mat-menu-item>Delete</button>
+            <button mat-menu-item (click)="konfirmasiHapus()">Delete</button>
           </mat-menu>
         </mat-list-item>
       </mat-list>
